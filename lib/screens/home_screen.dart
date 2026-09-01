@@ -77,10 +77,10 @@ class _MenuButton extends StatelessWidget {
         width: double.infinity,
         padding: const EdgeInsets.symmetric(vertical: 32, horizontal: 24),
         decoration: BoxDecoration(
-          color: const Color(0xFF1A237E).withOpacity(0.06),
+          color: const Color(0xFF1A237E).withValues(alpha: 0.06),
           borderRadius: BorderRadius.circular(16),
           border: Border.all(
-            color: const Color(0xFF1A237E).withOpacity(0.15),
+            color: const Color(0xFF1A237E).withValues(alpha: 0.15),
             width: 2,
           ),
         ),
