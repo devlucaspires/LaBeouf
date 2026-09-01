@@ -25,18 +25,14 @@ O **Labeouf** é um aplicativo minimalista para criação e acompanhamento de tr
 ## 📸 Telas do App
 
 ### Tela Inicial
-![Tela Inicial](screenshots/tela-inicial.jpeg)
+| Seleção de Grupos | Seleção de Exercícios | Seleção de Exercícios |
+|-------------------|----------------------|----------------------|
+![Tela Inicial](screenshots/tela-inicial.jpeg) | ![Meus Treinos](screenshots/meus-treinos.jpeg) | ![Detalhes do Treino](screenshots/treino.jpeg) |
 
 ### Montar Treino
 | Seleção de Grupos | Seleção de Exercícios |
 |-------------------|----------------------|
 | ![Montar Treino 1](screenshots/montar-treino-a.jpeg) | ![Montar Treino 2](screenshots/montar-treino-b.jpeg) |
-
-### Meus Treinos
-![Meus Treinos](screenshots/meus-treinos.jpeg)
-
-### Detalhes do Treino
-![Detalhes do Treino](screenshots/treino.jpeg)
 
 ---
 
