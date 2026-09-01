@@ -1,17 +1,93 @@
-# labeouf
+# 🏋️ Labeouf
 
-A new Flutter project.
+> App pessoal para montagem e acompanhamento de treinos de musculação
 
-## Getting Started
+![Status](https://img.shields.io/badge/status-finalizado-brightgreen)
+![Flutter](https://img.shields.io/badge/Flutter-3.19+-blue)
+![SQLite](https://img.shields.io/badge/SQLite-embutido-blue)
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 📱 Sobre o App
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+O **Labeouf** é um aplicativo minimalista para criação e acompanhamento de treinos de musculação. Com uma interface simples e intuitiva, você pode montar seus treinos selecionando grupos musculares e exercícios, e acompanhar o progresso durante a execução.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### ✨ Funcionalidades
+
+- **Criar treinos** selecionando grupos musculares e exercícios
+- **Listar treinos** salvos no banco de dados local
+- **Acompanhar execução** marcando exercícios como feitos
+- **Controle de repetições** com 5 halteres interativos
+- **Excluir treinos** com confirmação
+
+---
+
+## 📸 Telas do App
+
+### Tela Inicial
+![Tela Inicial](screenshots/tela-inicial.jpeg)
+
+### Montar Treino
+| Seleção de Grupos | Seleção de Exercícios |
+|-------------------|----------------------|
+| ![Montar Treino 1](screenshots/montar-treino-a.jpeg) | ![Montar Treino 2](screenshots/montar-treino-b.jpeg) |
+
+### Meus Treinos
+![Meus Treinos](screenshots/meus-treinos.jpeg)
+
+### Detalhes do Treino
+![Detalhes do Treino](screenshots/treino.jpeg)
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+| Tecnologia | Finalidade |
+|------------|------------|
+| **Flutter** | Framework multiplataforma |
+| **Dart** | Linguagem de programação |
+| **SQLite (sqflite)** | Banco de dados local |
+| **Path Provider** | Gerenciamento de arquivos |
+
+---
+
+## 🚀 Como Executar
+
+### Pré-requisitos
+- [Flutter SDK](https://flutter.dev/docs/get-started/install)
+- [Android Studio](https://developer.android.com/studio) ou VS Code
+- Dispositivo Android/iOS
+
+### Passos
+
+```bash
+# 1. Clone o repositório
+git clone https://github.com/devlucaspires/labeouf.git
+
+# 2. Entre na pasta
+cd labeouf
+
+# 3. Instale as dependências
+flutter pub get
+
+# 4. Execute o app
+flutter run
+```
+
+---
+
+## 🔮 Aprimoramentos Futuros
+
+Ideias para evoluir o app:
+
+### Funcionalidades Planejadas
+
+- [ ] **Adicionar novos exercícios** diretamente pelo app
+- [ ] **Criar novos grupos musculares** dinamicamente
+- [ ] **Editar treinos existentes** (renomear, adicionar/remover exercícios)
+- [ ] **Ordenar treinos** por data de criação ou nome
+- [ ] **Cronômetro** para controle de descanso entre séries
+
+---
+
+**Sugestões e contribuições são bem-vindas!** 🏋️
